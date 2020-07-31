@@ -7,7 +7,7 @@
         linear-gradient(90deg, #c5dfe4 1px, transparent 1px);
 }
 .Cell {
-    background: #7ca3b1;
+    background: pink;
     position: absolute;
 }
 .button {
@@ -25,8 +25,8 @@
 .button:hover{
     color: #d2eaee;
     background-color: #58777f;
-    cursor:pointer;
-}
+    cursor:pointer; 
+ }
 .home-button {
     width: 150px;
     height: 40px;
@@ -38,13 +38,6 @@
     border: 2px solid #4F2F4F;
     font-family: 'Odibee Sans', cursive;
     transition: width 2s, height 2s, transform 2s;
-}
-.home-button:hover {
-    background-color: rgb(90, 196, 196);
-    color: darkcyan;
-    border: 2px solid darkcyan;
-    transform: rotate(360deg);
-    cursor:pointer;
 }
 .container {
     width: 100%;
@@ -58,7 +51,7 @@
     border: 2px solid darkslategrey;
 }
 .gen{
-     background-color: darkcyan;
+     background-color: pink;
      font-size: 1.5rem;
      margin: 0 auto;
      color: white;
